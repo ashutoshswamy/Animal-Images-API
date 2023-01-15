@@ -10,6 +10,8 @@ This is an API which returns images of different animals.
 | [/cat](https://animal-images-api.devashu397.repl.co/cat)     | GET    | Returns an image of a cat   |
 | [/lion](https://animal-images-api.devashu397.repl.co/lion)   | GET    | Returns an image of a lion  |
 | [/tiger](https://animal-images-api.devashu397.repl.co/tiger) | GET    | Returns an image of a tiger |
+| [/panda](https:/animal-images-api.devashu397.repl.co/panda)  | GET    | Returns an image of a panda |
+| [/koala](https:/animal-images-api.devashu397.repl.co/koala)  | GET    | Returns an image of a koala |
 
 # Example
 

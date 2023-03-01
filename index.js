@@ -5,7 +5,7 @@ const app = express();
 app.get("/", (req, res) => {
   res.send({
     message:
-      "Go to docs - https://github.com/devashu397/Animal-Images-API#readme",
+      "Go to docs - https://github.com/iamashuu397/Animal-Images-API#readme",
   });
 });
 

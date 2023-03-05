@@ -3,10 +3,7 @@ const express = require("express");
 const app = express();
 
 app.get("/", (req, res) => {
-  res.send({
-    message:
-      "Go to docs - https://github.com/iamashuu397/Animal-Images-API#readme",
-  });
+  res.redirect("https://github.com/iamashuu397/Animal-Images-API#readme");
 });
 
 app.get("/dog", (req, res) => {
@@ -205,6 +202,6 @@ app.get("/kangaroo", (req, res) => {
   });
 });
 
-app.listen(3000 || process.env.PORT, () => {
-  console.log("Listening to http://localhost:3000");
+app.listen(3000, () => {
+  console.log("Running on http://localhost:3000");
 });
